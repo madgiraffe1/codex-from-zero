@@ -27,3 +27,7 @@
 ## 版本差异和勘误
 
 软件更新后，界面和入口可能与书中不同。最新情况见[版本差异勘误表](%E7%89%88%E6%9C%AC%E5%B7%AE%E5%BC%82%E5%8B%98%E8%AF%AF%E8%A1%A8.md)。
+
+## 反馈
+
+发现书中的错误，或者照着做遇到问题，可以到 [Issues](https://github.com/madgiraffe1/codex-from-zero/issues) 留言。留言需要先登录 GitHub 账号，下载不需要。
