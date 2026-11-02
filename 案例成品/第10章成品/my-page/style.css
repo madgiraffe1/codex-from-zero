@@ -1,0 +1,84 @@
+/* 整体 */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: #2d3748;
+  background: #ffffff;
+  line-height: 1.7;
+}
+
+/* 顶部：照片和一句话介绍 */
+.hero {
+  text-align: center;
+  padding: 48px 20px 32px;
+}
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #1a365d;
+  object-fit: cover;
+}
+.hero h1 {
+  margin: 12px 0 0;
+  color: #1a365d;
+}
+.tagline {
+  margin: 10px auto 0;
+  color: #4a5568;
+}
+
+/* 中部：关于我 + 作品 */
+.about, .works, .contact {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+.about h2, .works h2, .contact h2 {
+  color: #1a365d;
+  margin-bottom: 16px;
+  border-left: 4px solid #1a365d;
+  padding-left: 10px;
+}
+
+/* 作品网格：宽屏两列 */
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.work { margin: 0; }
+.work img {
+  width: 100%;
+  display: block;
+}
+.work figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #4a5568;
+}
+.contact a { color: #1a365d; }
+
+/* 窄屏：作品排成一列 */
+@media (max-width: 600px) {
+  .work-grid { grid-template-columns: 1fr; }
+}
+
+/* 筛选按钮 */
+.filters { margin-bottom: 24px; }
+.filter-btn {
+  padding: 8px 20px;
+  margin: 0 10px 10px 0;
+  border: 1px solid #1a365d;
+  background: #ffffff;
+  color: #1a365d;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.filter-btn.active, .filter-btn:hover {
+  background: #1a365d;
+  color: #ffffff;
+}
+.work.hidden { display: none; }

@@ -1,0 +1,8 @@
+第11章练习文件（全部为虚构的教学材料）
+
+daiban-qingdan.zip：11.2节安装和试用的现成 Skill，解压后得到“daiban-qingdan”文件夹。
+工作记录-第二周.txt：11.2.3节用 daiban-qingdan 整理的记录。
+练习资料-第二组：11.4.1节换一组材料试用自己写的 ziliao-zhengli。
+新表格-门店报修登记.csv：章末基础练习用的表格。
+
+ziliao-zhengli 要自己动手写，写好后可以和配套资源“Skill示例”里的版本对照。
